@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">OnlineShop</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="btn_home">Home</string>
+    <string name="btn_keranjang">Keranjang</string>
+    <string name="btn_akun">Akun</string>
+
+</resources>
