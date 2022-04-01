@@ -4,5 +4,6 @@
     <string name="btn_home">Home</string>
     <string name="btn_keranjang">Keranjang</string>
     <string name="btn_akun">Akun</string>
+    <string name="nama">Nama Lengkap</string>
 
 </resources>

@@ -8,6 +8,7 @@ import android.view.MenuItem
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.FragmentManager
 import com.androiddasar.onlineshop.activity.LoginActivity
+import com.androiddasar.onlineshop.activity.MasukActivity
 import com.androiddasar.onlineshop.fragment.AkunFragment
 import com.androiddasar.onlineshop.fragment.HomeFragment
 import com.androiddasar.onlineshop.fragment.KeranjangFragment
@@ -62,7 +63,7 @@ class MainActivity : AppCompatActivity() {
                         callFragment(2, fragmentAccount)
                     } else {
                         // jika false akan mengarah ke activity login
-                        startActivity(Intent(this, LoginActivity::class.java))
+                        startActivity(Intent(this, MasukActivity::class.java))
                     }
 
                 }
